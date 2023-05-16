@@ -42,6 +42,7 @@
 .abtt-sec{
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
 }
 
 .abtt a{
@@ -58,4 +59,26 @@
 .abtt a:hover{
     background: black;
     transition: 1s;    
+}
+
+@media screen and (max-width:600px){
+    .abtt-sec{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-section{
+        width: 100%;
+    }
+    .abtt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .abt-tec{
+        color: #c1c0b6;
+        background-color: #3e3b36;
+        padding: 5px 5px !important;
+        border-radius: 10px;
+        margin: 5% 5px 3%;
+    }
 }
