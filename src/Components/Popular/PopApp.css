@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card img { 
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+.pop-top h2{
+    margin-top: 40%;
+    font-size: 50px;
+    padding-bottom: 65%;
+}
+
+.pop-top p{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.pop-top a{
+    text-decoration: none;
+}
+
+.pop-main{
+    padding: 20px;
+    background: #c1c0b6;
+}
+
+.card{
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    background: #b9b6ad;
+    margin-top: 10px;
+}

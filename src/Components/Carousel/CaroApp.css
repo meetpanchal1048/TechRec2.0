@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* -------------Caro-Top--------------------- */
+
+.caro-header {
+    background-color: #c1c0b6;
+    padding: 20px;
+    padding-top: 5%;
+}
+
+.carp-sec {
+    display: flex;
+    padding: 10px;
+}
+
+.carp-sec p {
+    color: #0000008f;
+    font-size: 80px;
+    margin-left: 10%;
+    animation: caro-text 1s ease-in-out;
+}
+
+.carp-sec button {
+    background-color: #f2f1e6;
+    border: none;
+    border-radius: 50px;
+    height: 50px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 40%;
+    opacity: 0;
+    animation: caro-btn 1s forwards;
+    animation-delay: 3s;
+}
+
+.carp-sec1 {
+    display: flex;
+    border-bottom: 0px solid black;
+    padding: 10px;
+    /* animation: caro-line 1s forwards; */
+    animation-delay: 2.5s;
+}
+
+.carp-sec1 p {
+    color: #0000008f;
+    font-size: 50px;
+    margin-left: 35%;
+
+    margin-top: 10px;
+    animation: caro-text 1s forwards;
+    animation-delay: 1s;
+    visibility: hidden;
+}
+
+.carp-sec1 button {
+    background-color: #ce6d67;
+    border: none;
+    border-radius: 50px;
+    height: 50px;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 20%;
+    opacity: 0;
+    animation: caro-btn 1s forwards;
+    animation-delay: 3.5s;
+}
+
+.carp-sec2 {
+    display: flex;
+    padding: 10px;
+}
+
+.carp-sec2 p {
+    color: #0000008f;
+    font-size: 50px;
+    margin-left: 5%;
+    margin-top: 10px;
+    animation: caro-text 1s forwards;
+    animation-delay: 1.5s;
+    visibility: hidden;
+}
+
+.carp-sec2 button {
+    background-color: #eec9fd;
+    border: none;
+    border-radius: 50px;
+    height: 50px;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 46%;
+    opacity: 0;
+    animation: caro-btn 1s forwards;
+    animation-delay: 4s;
+}
+
+.caro-line {
+    display: block;
+    border-bottom: 1px solid black;
+    width: 100%;
+    animation: caro-lline 1s forwards;
+    animation-delay: 2s;
+    opacity: 0;
+}
+
+.caro-line2 {
+    display: block;
+    border-bottom: 1px solid black;
+    width: 100%;
+    animation: caro-lline 1s forwards;
+    animation-delay: 2.5s;
+    opacity: 0;
+}
+
+.config-btn a{
+    text-decoration: none;
+    color: black;
+}
+
+@keyframes caro-text {
+    from {
+        font-size: 150px;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    to {
+        font-size: 80px;
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@keyframes caro-lline {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes caro-btn {
+    from {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    to {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+/* -----------------Caro--------------------- */
+img {
+    border-radius: 20px;
+}
+
+.caro-top {
+    border: 40px solid #252421;
+    background-color: #252421;
+    animation: caro-ani 1.5s forwards;
+    animation-delay: 4.5s;
+    visibility: hidden;
+}
+
+.caroo {
+    background-color: #c1c0b6;
+}
+
+@keyframes caro-ani {
+    0% {
+        transform: translateY(200px);
+        visibility: hidden;
+    }
+
+    100% {
+        transform: translateY(0px);
+        visibility: visible;
+    }
+}
+
+/* -----------Carro_Bottom-------------- */
+
+
+.carro-inner {
+    background-color: #c1c0b6;
+    padding: 30px;
+}
+
+.inner-text {
+    color: #253021a3;
+    font-size: 90px;
+}
+
+.inner-text a {
+    text-decoration: none;
+    color: #253021;
+}
+
+
+/* -----------------------------Media Query------------------------------- */
+
+@media screen and (max-width: 600px) {
+
+    .caro-header {
+        background-color: #c1c0b6;
+        padding: 10px;
+        padding-top: 5%;
+    }
+
+    .carp-sec {
+        padding: 5px;
+        padding-top: 30%;
+        padding-bottom: 15%;
+    }
+
+    .carp-sec p {
+        color: #0000008f;
+        font-size: 40px;
+        margin-left: 0;
+        animation: caro-text 1s ease-in-out;
+    }
+
+    .carp-sec button {
+        height: 40px;
+        width: 150px;
+        margin-top: 8px;
+        margin-left: 10%;
+    }
+
+    .carp-sec1 button {
+        background-color: #ce6d67;
+        border: none;
+        border-radius: 50px;
+        height: 40px;
+        width: 150px;
+        margin-top: 20px;
+        margin-left: 0%;
+    }
+
+    .carp-sec1 p {
+        color: #0000008f;
+        font-size: 50px;
+        margin-left: 15%;
+        margin-top: 10px;
+    }
+
+    .carp-sec1 {
+        padding: 5px;
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+
+    .carp-sec2 {
+        padding: 5px;
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+
+    .carp-sec2 p {
+        color: #0000008f;
+        font-size: 40px;
+        margin-left: 0%;
+        margin-top: 00px;
+    }
+
+    .carp-sec2 button {
+        height: 40px;
+        width: 150px;
+        margin-top: 10px;
+        margin-left: 15%;
+    }
+
+
+    @keyframes caro-text {
+        from {
+            font-size: 90px;
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        to {
+            font-size: 40px;
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+
+
+    /* ----------------Caro--------------------- */
+    .caro-top {
+        border: 20px solid #252421;
+        background-color: #252421;
+        animation: caro-ani 1.5s forwards;
+        animation-delay: 4.5s;
+        visibility: hidden;
+    }
+
+}

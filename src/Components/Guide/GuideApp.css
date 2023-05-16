@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.guide-main{
+    background: #c1c0b6;
+    padding: 20px;
+}
+.guide-title{
+    margin-top: 20%;
+    margin-bottom: 50px;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+}
+.guide-foot{
+    padding: 4px 18px;
+    font-size: 30px;
+    background-color: #7e7d78;
+    border-radius: 50%;
+    border: none;
+    margin-top: 10%;
+    margin-left: 50%;
+}
+
+/* ------------------Media Query------------------------- */
+
+@media screen and (max-width: 600px){
+
+    .guide-foot{
+        padding: 4px 18px;
+        font-size: 30px;
+        background-color: #7e7d78;
+        border-radius: 50%;
+        border: none;
+        margin-top: 10%;
+        margin-left: 42%;
+    }
+}
+    
